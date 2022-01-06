@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_gravity="left"
+        android:layout_margin="50px"
+        android:text="welcome"
+        android:textSize="60dp"
+         />
+
+
+    <TextView
+        android:id="@+id/Browser"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_gravity="left"
+        android:layout_margin="50px"
+        android:text="Browser page"
+        android:textSize="60dp" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/Contactus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="Contact Us" />
+
+    <Button
+        android:id="@+id/OpenCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="Open Camera" />
+</LinearLayout>
